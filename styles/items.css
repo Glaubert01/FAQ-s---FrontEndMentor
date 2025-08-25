@@ -47,11 +47,18 @@
 @media screen and (min-width: 768px) {
     .conteudo {
      margin: -180px auto 0 auto;
+     width: 80%;
     }
     .conteudo__paragrafo {
         font-size: 18px;
     }
     .conteudo__item-paragrafo {
         font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .conteudo {
+     width: 45%;
     }
 }

@@ -1,6 +1,6 @@
 .conteudo {
     width: 80%;
-    margin: -120px auto 0 auto; /* centraliza horizontalmente e ajusta a margem superior */
+    margin: -100px auto 0 auto; /* centraliza horizontalmente e ajusta a margem superior */
     background-color: white;
     border-radius: 10px;
     padding: 20px;
@@ -60,5 +60,6 @@
 @media screen and (min-width: 1440px){
     .conteudo {
      width: 40%;
+     margin: -200px auto 0 auto; /
     }
 }

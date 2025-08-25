@@ -26,3 +26,25 @@ footer.attribution {
     bottom: 10px;
     width: 100%;
 }
+
+
+@media screen and (min-width: 768px) {
+    .conteudo__topo {
+        font-size: 56px;
+        margin-bottom: 32px;
+        margin-top: 40px;
+    }
+
+    .conteudo__topo img {
+    width: 35px;
+    height: 35px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+   
+    .conteudo__topo img {
+    width: 40px;
+    height: 40px;
+    }
+}

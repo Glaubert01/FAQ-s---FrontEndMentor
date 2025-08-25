@@ -1,6 +1,6 @@
 .conteudo {
     width: 80%;
-    margin: -120px auto 0 auto; /* centraliza horizontalmente e ajusta a margem superior */
+    margin: -100px auto 0 auto; /* centraliza horizontalmente e ajusta a margem superior */
     background-color: white;
     border-radius: 10px;
     padding: 20px;
@@ -14,7 +14,8 @@
     align-items: center;
     justify-content: space-between;
     border-top: #dadada 1px solid;
-    
+   
+
 }
 
 .conteudo__paragrafo {
@@ -32,4 +33,16 @@
     font-weight: 400;
     color:#8B6990;
     margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .conteudo {
+     margin: -180px auto 0 auto;
+    }
+    .conteudo__paragrafo {
+        font-size: 18px;
+    }
+    .conteudo__item-paragrafo {
+        font-size: 16px;
+    }
 }

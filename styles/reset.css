@@ -46,3 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+button {
+  all: unset;          /* reseta tudo de uma vez */
+  cursor: pointer;     /* mantém o cursor de botão */
+}

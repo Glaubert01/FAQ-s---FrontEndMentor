@@ -1,0 +1,28 @@
+.conteudo__topo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: work sans, sans-serif;
+}
+
+.conteudo__topo img {
+    width: 24px;
+    height: 24px;
+}
+
+body {
+    background-color: #F8EEFF;
+}
+
+footer.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 40px;
+    color: #8B6990;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}

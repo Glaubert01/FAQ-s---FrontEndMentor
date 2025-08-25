@@ -1,0 +1,10 @@
+.cabecalho {
+    background-image: url("../assets/images/background-pattern-mobile.svg");
+    background-size: cover;   /* ou contain */
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 30vh;
+}
+
+
+

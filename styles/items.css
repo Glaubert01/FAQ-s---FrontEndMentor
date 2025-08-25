@@ -35,6 +35,15 @@
     margin-bottom: 20px;
 }
 
+.hidden {
+    display: none;
+}
+
+.conteudo__paragrafo:hover {
+    color: #AD28EB;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
     .conteudo {
      margin: -180px auto 0 auto;

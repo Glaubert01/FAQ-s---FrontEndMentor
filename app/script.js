@@ -1,6 +1,7 @@
 const botoes = document.querySelectorAll('.conteudo__icone-button');
-const paragrafos = document.querySelectorAll('.conteudo__item-paragrafo');
 const perguntas = document.querySelectorAll('.conteudo__paragrafo'); // <-- título da pergunta
+const paragrafos = document.querySelectorAll('.conteudo__item-paragrafo');
+
 
 function toggleItem(index, btn) {
     paragrafos[index].classList.toggle('hidden');
